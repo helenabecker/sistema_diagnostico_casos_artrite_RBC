@@ -4,7 +4,7 @@ Este sistema utiliza técnicas de Inteligência Artificial baseada em casos para
 - Artrite Reumatoide
 - Artrite de Gota
 
-# Funcionalidades
+## Funcionalidades
 O sistema oferece um conjunto completo de funcionalidades para apoio ao diagnóstico médico. A **gestão da base de casos** permite carregar e expandir continuamente o conhecimento médico através de arquivos Excel, onde novos casos podem ser adicionados automaticamente após cada consulta, enriquecendo a base de dados para futuras análises.
 
 O núcleo do sistema é o algoritmo de **cálculo de similaridade** que emprega uma abordagem de vizinhança com pesos configuráveis para cada sintoma e exame clínico. Este algoritmo compara multidimensionalmente os casos novos com toda a base existente, identificando os pacientes mais similares e suas respectivas porcentagens de correspondência.
@@ -13,12 +13,12 @@ Para o **processo de diagnóstico assistido**, o sistema analisa os casos mais s
 
 Uma característica importante é a **flexibilidade na configuração**, onde os profissionais de saúde podem ajustar os pesos dos diferentes sintomas e exames de acordo com sua experiência clínica e relevância diagnóstica para cada tipo de artrite. O sistema também possui capacidade de aprendizado contínuo, onde cada novo caso diagnosticado é incorporado à base, melhorando progressivamente a acurácia do sistema.
 
-# Métricas de Similaridade
+## Métricas de Similaridade
 - Nominal: Para atributos binários (sim/não)
 - Ordinal: Para intensidades (ausente, leve, moderado, etc.)
 - Numérica: Para valores contínuos (HLA-B27)
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Python 3
 - Pandas - Manipulação de dados
 - NumPy - Cálculos numéricos
